@@ -138,9 +138,115 @@
   justify-content: space-between;
   margin-bottom: 0;
   margin-top: 24px;
-  font-family: "inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.reservation{
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url(/se_project_coffeeshop/images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reservation__title{
+  margin: 0 0 80px;
+  text-align: center;
+  font-family:"Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form{
+  margin: 0 auto;
+}
+
+.form{
+  max-width: 385px;
+}
+
+.form__fieldset{
+  padding: 0;
+  margin: 0;
+  border:none;
+
+}
+
+.form__label{
+  display: block;
+  margin-bottom:32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+.form__input{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+  border-radius: 4px;
+  border: solid;
+  border-color: #838383;
+  padding-left: 20px;
+}
+
+.form__button{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  border-radius: 2px;
+  height: 60px;
+  background-color: #2F80ED;
+  color: #ffffff;
+  border: solid;
+  border-color: #2F80ED;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button:hover{
+  opacity: 70%;
+}
+
+.form__checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.form__label_type_checkbox{
+  display: flex;
+  justify-content: center;
+  gap:12px;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.form__input::placeholder{
+/* padding: 10px; */
+color: #838383;
+font-family: "Inter";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+
+.input[type="datetime-local"] {
+  padding: 10px;
 }
