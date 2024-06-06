@@ -13,7 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+:)
 
 I think this project could look a tad better if it was not that sectiony, if we can somehow ease the transition between the sections it would look a ton better.
 
