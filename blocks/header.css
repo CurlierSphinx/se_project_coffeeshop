@@ -44,12 +44,13 @@
 
 .header__description{
   max-width: 683px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
