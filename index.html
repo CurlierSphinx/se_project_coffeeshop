@@ -7,7 +7,7 @@
     <meta name="description" content="So, What goes on in a Library">
     <meta name="keywords" content="Library Enroll Books Web_Design">
     <link rel="stylesheet" href="pages/index.css">
-    <link rel="shortcut icon" href="/se_project_coffeeshop/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -92,21 +92,21 @@
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label class="form__label">Name *
-                <input type="text" class="form__input" placeholder="Name Surname">
+                <input type="text" class="form__input" placeholder="Name Surname" required>
               </label>
               <label class="form__label" >Number of guests *
-                <input type="number" class="form__input" placeholder="1-8">
+                <input type="number" class="form__input" placeholder="1-8" required>
               </label>
               <label class="form__label">Date & time *
-                <input type="datetime-local" class="form__input" >
+                <input type="datetime-local" class="form__input" required>
               </label>
               <label class="form__label">Your Email
-                <input type="email" class="form__input" placeholder="email@email.com">
+                <input type="email" class="form__input" placeholder="email@email.com" required>
               </label>
              </fieldset>
-            <button type="submit" class="form__button">Book a table</button>
+            <button type="submit" class="form__button">Book a table</button required>
             <label class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox">
+              <input type="checkbox" class="form__checkbox" required>
               I agree with the terms of use
             </label>
           </form>
@@ -226,13 +226,11 @@
       <!-- Start of the footer -->
       <footer class="footer">
         <section class="footer__content">
-          <div class="footer__column">
             <img
               src="./images/logo_coffeeshop_light.svg"
               alt="Coffe Shop Logo"
               class="footer__logo"
             />
-          </div>
           <div>
             <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
